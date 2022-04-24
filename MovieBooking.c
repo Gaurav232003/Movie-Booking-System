@@ -1,20 +1,21 @@
+//Movie Ticket Booking System
 #include<stdio.h>
-int gold(int n)
+int gold(int n) //gold seats
 {
     int cost=300*n;
     return cost;
 }
-int silver(int n)
+int silver(int n) //silver seats
 {
     int cost=200*n;
     return cost;
 }
-int bronze(int n)
+int bronze(int n)  //bronze seats
 {
     int cost=150*n;
     return cost;
 }
-int food()
+int food()  //food
 {
     int c=0,fcost=0;
     while(c==0)
